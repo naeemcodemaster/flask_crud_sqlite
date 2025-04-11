@@ -35,7 +35,11 @@ def hello_world():
 def todos():
     allTodos = Todo.query.all()
     print(allTodos)
-    return 'This is Book page'
+    return 'This is todos page'
+
+@app.route('/about')
+def about():
+    return render_template('about.html')
 
 @app.route('/update/<int:sno>', methods=['GET', 'POST'])
 def update(sno):
