@@ -1,0 +1,23 @@
+1) Flask is a python module allow us to create web application using Python.
+
+
+
+2) pip install flask-sqlalchemy
+what is sqalchemy is
+SQLAlchemy is a powerful Python SQL toolkit and Object-Relational Mapping (ORM) library. Let me explain its key aspects:
+
+1. What is SQLAlchemy?
+•  It's a Python library that provides a set of tools for working with databases
+•  It acts as a bridge between Python objects and database tables
+•  It supports multiple database engines like SQLite, PostgreSQL, MySQL, and others
+2. Main Features:
+•  ORM (Object-Relational Mapping): Lets you interact with your database using Python classes instead of writing raw SQL
+•  SQL Expression Language: Allows writing SQL queries using Python expressions
+•  Engine and Connection Pooling: Manages database connections efficiently
+•  Schema Management: Tools for creating and managing database schemas
+3. Benefits:
+•  Write database code in Python instead of SQL
+•  Automatically handles database connections
+•  Provides database independence (can switch between different databases easily)
+•  Helps prevent SQL injection attacks
+•  Makes database operations more Pythonic
